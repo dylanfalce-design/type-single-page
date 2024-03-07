@@ -6,7 +6,10 @@
     font-style: normal;
     font-weight: normal;
     }
-    
+   
+    /* *{border:blue 3px dashed;
+    } */
+
     body{
     background-color: rgb(200, 153, 102);
     font-family: 'Condor Variable Regular';
