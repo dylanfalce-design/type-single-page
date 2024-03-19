@@ -100,6 +100,7 @@ h3{
   .pattern{
     grid-area: p;
     background-color: rgb(80, 119, 165);
+    height: 650;
 }
 
 #history{
@@ -126,18 +127,25 @@ h3{
     grid-template-areas: 
         "w w w w w w j j j j j j"
         "w w w w w w j j j j j j"
-        "w w w w w w j j j j j j";
+        "o o o o o o o o o o o o";
  }
  
  .width{
     grid-area: w;
     background-color: rgb(80, 119, 165);
+    height: 650px
 }
 
   .pattertwo{
     grid-area: j;
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
+  }
+  
+  .bottomart{
+    grid-area: o;
+    background-color: rgb(76, 76, 76)
+
   }
 
 
