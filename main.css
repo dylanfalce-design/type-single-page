@@ -7,13 +7,21 @@
     font-weight: normal;
     }
    
-    /* *{border:blue 3px dashed;
-    } */
+    *{
+        margin:0px;
+        /* border:blue 3px dashed; */
+    }
 
     body{
-    background-image: url(helosection.svg);
-   
+    background-color: rgb(225, 205, 151);
     font-family: 'Condor Variable Regular';
+}
+
+.hero{
+    background-image: url("images/herosection.svg");
+    background-size:cover;
+    height:600px;
+    background-position: top;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -106,9 +114,11 @@ h3{
   }
 
   .pattern{
+    background-image: url("images/page2pattern.svg");
+    background-size: cover;
     grid-area: p;
     background-color: rgb(80, 119, 165);
-    height: 700;
+    height: 2000;
 }
 
 
@@ -147,6 +157,7 @@ h3{
 }
 
   .pattertwo{
+    background-image: url("images/page3pattern");
     grid-area: j;
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
@@ -203,7 +214,9 @@ h3{
   .footer{
     grid-area: f;
     background-color: rgb(165, 85, 85);
-    height: 300px;
+    height: 800px;
+    margin-bottom:0px;
+    
 }
 .basic-link {
     color:#1e4874;
@@ -214,9 +227,15 @@ h3{
   }
 
   .thesoul{
+    margin-top:0px;
+    background-image: url("images/page5pattern.svg");
+    background-size: cover;
+    background-position: right;
     grid-area: s;
+    height:400px;
     background-color: rgb(76, 76, 76);
     color: rgb(255, 255, 255)
+    
     
   }
   
