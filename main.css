@@ -19,10 +19,19 @@
 
 .hero{
     background-image: url("images/herosection.svg");
-    background-size:cover;
-    height:700px;
-    background-position: top;
+    background-size: cover;
+    height:1000px;
+   
+    
 }
+.hero2{
+    color: rgb(225, 205, 151);
+    position: bottom;
+    margin-top: 85px; 
+    font-size:50px;
+
+}
+
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* width: min(100% - 3rem, 80ch); */
@@ -53,16 +62,19 @@ footer{
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 4.2em;
     animation: weightChange 8s infinite;
+    /* margin-top: 200px; */
 }
+
+
 
 @keyframes weightChange {
     0%, 100%{
               font-variation-settings: "wght" 200, "wdth" 50, "ital" 1;
     }
     50%{
-              font-variation-settings: "wght" 900, "wdth" 175, "ital" 1;
+              font-variation-settings: "wght" 900, "wdth" 150, "ital" 1;
     }
     
     }
@@ -121,6 +133,8 @@ h3{
     background-color: rgb(80, 119, 165);
     height: 200;
     background-position: top;
+   
+   
 }
 
 
@@ -128,12 +142,14 @@ h3{
     grid-area: h;
     background-color: rgb(76, 76, 76);
     color: rgb(255, 255, 255)
+    
 }
 
 #variations{
     grid-area: v;
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
+    
 }
 
 /* third page */
@@ -152,24 +168,27 @@ h3{
         "o o o o o o o o o o o o";
  }
  
- .width{
-    grid-area: w;
-    background-color: rgb(80, 119, 165);
-    height: 700px
-}
-
-  .pattertwo{
+ .pattertwo{
     background-image: url("images/page3pattern");
     grid-area: j;
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
    
   }
+
+ .width{
+    grid-area: w;
+    background-color: rgb(80, 119, 165);
+    height: 700px
+    
+}
+
+  
   
   .bottomart{
     grid-area: o;
     background-color: rgb(76, 76, 76)
- 
+    
     
 
   }
@@ -185,17 +204,26 @@ h3{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
-        "f f f f f f f f f f f f"
-        "f f f f f f f f f f f f"
+        "m m m m m m b b b b b b"
+        "k k k k k k a a a a a a"
         "s s s s s s s s s s s s";
 }
-.movingglyphs{
+.glyph1{
     grid-area: m;
     background-color:rgb(188, 102, 102);
     color: rgb(51, 71, 110);
     font-weight: 700;
-    height: 800px;
+    height: 1200px;
 
+}
+.glyph2{
+    grid-area:b
+}
+.glyph3{
+    grid-area:k
+}
+.glyph4{
+    grid-area:a
 }
 
 /* footer page */
@@ -223,6 +251,8 @@ h3{
 }
 .basic-link {
     color:#1e4874;
+    height: 600px;
+  
 
   }
   .basic-link:hover {
