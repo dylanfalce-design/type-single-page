@@ -24,11 +24,24 @@
    
     
 }
-.hero2{
-    color: rgb(225, 205, 151);
-    position: bottom;
-    margin-top: 85px; 
-    font-size:50px;
+.hero-text{
+ padding-top:400px;
+ color: rgb(225, 205, 151)
+}
+
+h5{
+    font-weight: 20;
+    text-align: center;
+    font-size: 18em;
+    animation: weightchange2 3s infinite;
+}
+@keyframes weightChange2 {
+    0%, 100%{
+        font-variation-settings: "wght" 100, "wdth" 50, "ital" 1;
+}
+50%{
+        font-variation-settings: "wght" 900, "wdth" 125, "ital" 1;
+}
 
 }
 
@@ -66,8 +79,6 @@ h3{
     animation: weightChange 8s infinite;
     /* margin-top: 200px; */
 }
-
-
 
 @keyframes weightChange {
     0%, 100%{
@@ -117,7 +128,7 @@ h3{
     height: 1000px;
     display: grid;
     grid-gap: 0px;
-    padding:10px;
+    padding:15px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto ;
     grid-template-areas: 
@@ -150,6 +161,15 @@ h3{
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
     
+    
+}
+.text1{ 
+    width: 100;
+    font-weight: 200;
+}
+.text2{
+    width: 100;
+    font-weight: 267
 }
 
 /* third page */
@@ -158,38 +178,33 @@ h3{
     width:100%;
     display: grid;
     grid-gap: 0px;
-    padding:10px;
+    padding:0px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
         "w w w w w w j j j j j j"
         "w w w w w w j j j j j j"
-        "o o o o o o o o o o o o"
         "o o o o o o o o o o o o";
  }
  
  .pattertwo{
-    background-image: url("images/page3pattern");
+    background-image: url("images/page3pattern.svg");
+    background-size: cover;
     grid-area: j;
     background-color: rgb(225, 205, 151);
-    color: rgb(80, 119, 165)
-   
+    height: 200px;
+    background-position: top;
   }
 
  .width{
     grid-area: w;
     background-color: rgb(80, 119, 165);
     height: 700px
-    
-}
-
-  
+  }
   
   .bottomart{
     grid-area: o;
-    background-color: rgb(76, 76, 76)
-    
-    
+    background-image: url("images/bottomart.svg") 
 
   }
 
@@ -206,8 +221,12 @@ h3{
     grid-template-areas: 
         "m m m m m m b b b b b b"
         "k k k k k k a a a a a a"
-        "s s s s s s s s s s s s";
+        "k k k k k k a a a a a a";
 }
+
+
+
+
 .glyph1{
     grid-area: m;
     background-color:rgb(188, 102, 102);
@@ -217,13 +236,13 @@ h3{
 
 }
 .glyph2{
-    grid-area:b
+    grid-area: b;
 }
 .glyph3{
-    grid-area:k
+    grid-area: k;
 }
 .glyph4{
-    grid-area:a
+    grid-area: a;
 }
 
 /* footer page */
