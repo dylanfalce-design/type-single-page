@@ -15,24 +15,25 @@
     body{
     background-color: rgb(225, 205, 151);
     font-family: 'Condor Variable Regular';
+    
 }
 
 .hero{
     background-image: url("images/herosection.svg");
     background-size: cover;
-    height:1000px;
+    height:1100px;
    
     
 }
 .hero-text{
- padding-top:400px;
+ padding-top:330px;
  color: rgb(225, 205, 151)
 }
 
 h5{
     font-weight: 20;
     text-align: center;
-    font-size: 18em;
+    font-size: 28em;
     animation: weightchange2 3s infinite;
 }
 @keyframes weightChange2 {
@@ -158,6 +159,7 @@ h3{
 
 #variations{
     grid-area: v;
+    margin: 10px;
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
     
@@ -200,6 +202,10 @@ h3{
     grid-area: w;
     background-color: rgb(80, 119, 165);
     height: 700px
+    
+  }
+  #test1{
+    width: 400;
   }
   
   .bottomart{
@@ -281,8 +287,8 @@ h3{
   .thesoul{
     margin-top:0px;
     background-image: url("images/page5pattern.svg");
-    background-size: cover;
-    background-position: right;
+    background-size: fill;
+    background-position: top;
     grid-area: s;
     height:600px;
     background-color: rgb(76, 76, 76);
