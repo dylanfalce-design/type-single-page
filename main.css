@@ -145,8 +145,6 @@ h3{
     background-color: rgb(80, 119, 165);
     height: 200;
     background-position: top;
-   
-   
 }
 
 
@@ -154,7 +152,7 @@ h3{
     grid-area: h;
     background-color: rgb(76, 76, 76);
     color: rgb(255, 255, 255)
-    
+
 }
 
 #variations{
@@ -162,16 +160,6 @@ h3{
     margin: 10px;
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
-    
-    
-}
-.text1{ 
-    width: 100;
-    font-weight: 200;
-}
-.text2{
-    width: 100;
-    font-weight: 267
 }
 
 /* third page */
@@ -194,23 +182,21 @@ h3{
     background-size: cover;
     grid-area: j;
     background-color: rgb(225, 205, 151);
-    height: 200px;
+    height: 700px;
     background-position: top;
   }
 
  .width{
     grid-area: w;
     background-color: rgb(80, 119, 165);
-    height: 700px
+    height: 800px;
+    padding: 10px;
     
-  }
-  #test1{
-    width: 400;
   }
   
   .bottomart{
     grid-area: o;
-    background-image: url("images/bottomart.svg") 
+    background-image: url("images/bottomart.svg");
 
   }
 
@@ -226,36 +212,43 @@ h3{
     grid-template-rows: auto auto auto;
     grid-template-areas: 
         "m m m m m m b b b b b b"
-        "k k k k k k a a a a a a"
+        "m m m m m m b b b b b b"
         "k k k k k k a a a a a a";
 }
 
-
-
-
 .glyph1{
     grid-area: m;
+    font-size: 300px;
     background-color:rgb(188, 102, 102);
     color: rgb(51, 71, 110);
-    font-weight: 700;
-    height: 1200px;
-
+    font-weight: 400;
+  
 }
+   
 .glyph2{
     grid-area: b;
+    font-size: 300px;
+    background-color: rgb(188, 102, 102);
+    color: rgb(51, 71, 110);
+    
 }
 .glyph3{
     grid-area: k;
+    font-size: 300px;
+    background-color: rgb(188, 102, 102);
+    color: rgb(51, 71, 110);
 }
 .glyph4{
     grid-area: a;
+    font-size: 300px;
+    background-color: rgb(188, 102, 102);
+    color: rgb(51, 71, 110);
 }
 
 /* footer page */
 
 .content-wrappertwo {
     width:100%;
-    height: 1000px;
     display: grid;
     grid-gap: 0px;
     padding:10px;
