@@ -198,6 +198,7 @@ h3{
     grid-area: o;
     background-image: url("images/bottomart.svg");
     background-size: cover;
+    min-height: 300px;
     
 
   }
