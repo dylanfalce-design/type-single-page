@@ -197,6 +197,8 @@ h3{
   .bottomart{
     grid-area: o;
     background-image: url("images/bottomart.svg");
+    background-size: cover;
+    
 
   }
 
@@ -280,7 +282,7 @@ h3{
   .thesoul{
     margin-top:0px;
     background-image: url("images/page5pattern.svg");
-    background-size: fill;
+    background-size: cover;
     background-position: top;
     grid-area: s;
     height:600px;
