@@ -21,14 +21,17 @@
 .hero{
     background-image: url("images/herosection.svg");
     background-size: cover;
-    height:1100px;
+    height:1000px;
    
     
 }
 .hero-text{
+
  padding-top:330px;
  color: rgb(225, 205, 151)
+ 
 }
+
 
 h5{
     font-weight: 20;
@@ -66,9 +69,10 @@ display: grid;
 footer{
     background-color: rgb(165, 80, 80);
     margin:0px;
+
 }
 .thesoul{
-    background-color: rgb(76, 76, 76);
+    background-color: rgb(51, 71, 110);
     margin:0px;
 }
 
@@ -83,7 +87,7 @@ h3{
 
 @keyframes weightChange {
     0%, 100%{
-              font-variation-settings: "wght" 200, "wdth" 50, "ital" 1;
+              font-variation-settings: "wght" 200, "wdth" 100, "ital" 1;
     }
     50%{
               font-variation-settings: "wght" 900, "wdth" 150, "ital" 1;
@@ -161,6 +165,33 @@ h3{
     background-color: rgb(225, 205, 151);
     color: rgb(80, 119, 165)
 }
+.fontweight{
+padding: 45px;
+}
+.a200{
+    font-variation-settings: "wght" 200, "wdth" 100, "ital" 0;
+    padding: 20px;
+}
+.a267{
+    font-variation-settings: "wght" 267, "wdth" 100, "ital" 0;
+    padding: 20px;
+}
+.a400{
+    font-variation-settings: "wght" 400, "wdth" 100, "ital" 0;
+    padding: 20px;
+}
+.a568{
+    font-variation-settings: "wght" 568, "wdth" 100, "ital" 0;
+    padding: 20px;
+}
+.a759{
+    font-variation-settings: "wght" 759, "wdth" 100, "ital" 0;
+    padding: 20px;
+}
+.a900{
+    font-variation-settings: "wght" 900, "wdth" 100, "ital" 0;
+    padding: 20px;
+}
 
 /* third page */
 
@@ -181,19 +212,51 @@ h3{
     background-image: url("images/page3pattern.svg");
     background-size: cover;
     grid-area: j;
-    background-color: rgb(225, 205, 151);
-
     background-position: top;
   }
 
  .width{
     grid-area: w;
     background-color: rgb(80, 119, 165);
-    height: 800px;
+    height: 900px;
     padding: 10px;
     
+
   }
+  .fontwidth{
+    padding: 45px;
   
+  }
+
+  .b200{
+    font-variation-settings: "wght" 400, "wdth" 200, "ital" 0;
+    padding: 10px;
+  }
+
+  .b267{
+    font-variation-settings: "wght" 400, "wdth" 267, "ital" 0;
+    padding: 10px;
+  }
+
+  .b400{
+    font-variation-settings: "wght" 400, "wdth" 400, "ital" 0;
+    padding: 10px;
+  }
+
+  .b568{
+    font-variation-settings: "wght" 400, "wdth" 568, "ital" 0;
+    padding: 10px;
+  }
+
+  .b759{
+    font-variation-settings: "wght" 400, "wdth" 759, "ital" 0;
+    padding: 10px;
+  }
+
+  .b900{
+    font-variation-settings: "wght" 400, "wdth" 900, "ital" 0;
+    padding: 10px;
+  }
   .bottomart{
     grid-area: o;
     background-image: url("images/bottomart.svg");
@@ -206,63 +269,56 @@ h3{
 
 
 /* Glyphs page */
-.content-wrappertwo {
+.content-wrapperfour {
     width:100%;
     display: grid;
     grid-gap: 0px;
+    background-color: rgb(165, 80, 80);
     padding:10px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
     grid-template-areas: 
-        "m m m m m m b b b b b b"
-        "m m m m m m b b b b b b"
-        "k k k k k k a a a a a a";
+        "m b"
+        "k a";
 }
+
+/* @font-face { */
+    /* font-family: "condorvariable"; */
+    /* src: url('./fonts/CondorVariable-VF-Edu.ttf') format('truetype'); */
+
+/* } */
 
 .glyph1{
     grid-area: m;
     font-size: 300px;
-    background-color:rgb(188, 102, 102);
+    /* background-color:rgb(188, 102, 102); */
     color: rgb(51, 71, 110);
-    font-weight: 400;
-  
 }
    
 .glyph2{
     grid-area: b;
     font-size: 300px;
-    background-color: rgb(188, 102, 102);
-    color: rgb(51, 71, 110);
-    
+    /* background-color: rgb(188, 102, 102); */
+    color: rgb(51, 71, 110); 
 }
+
 .glyph3{
     grid-area: k;
     font-size: 300px;
-    background-color: rgb(188, 102, 102);
+    /* background-color: rgb(188, 102, 102); */
     color: rgb(51, 71, 110);
 }
+
 .glyph4{
     grid-area: a;
     font-size: 300px;
-    background-color: rgb(188, 102, 102);
+    /* background-color: rgb(188, 102, 102); */
     color: rgb(51, 71, 110);
 }
 
 /* footer page */
 
-.content-wrappertwo {
-    width:100%;
-    display: grid;
-    grid-gap: 0px;
-    padding:10px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 
-        "f f f f f f f f f f f f"
-        "f f f f f f f f f f f f"
-        "s s s s s s s s s s s s";
-  }
-        
+ 
   .footer{
     grid-area: f;
     background-color: rgb(165, 85, 85);
@@ -277,7 +333,7 @@ h3{
 
   }
   .basic-link:hover {
-    color:#1e4874;
+    color:#817220;
   }
 
   .thesoul{
@@ -286,7 +342,7 @@ h3{
     background-size: cover;
     background-position: top;
     grid-area: s;
-    height:600px;
+    height:200px;
     background-color: rgb(76, 76, 76);
     color: rgb(255, 255, 255)
     
