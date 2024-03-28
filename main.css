@@ -172,6 +172,7 @@ padding: 45px;
     font-variation-settings: "wght" 200, "wdth" 100, "ital" 0;
     padding: 20px;
 }
+
 .a267{
     font-variation-settings: "wght" 267, "wdth" 100, "ital" 0;
     padding: 20px;
@@ -225,39 +226,60 @@ padding: 45px;
   }
   .fontwidth{
     padding: 45px;
+    color: rgb(225, 205, 151)
   
   }
 
   .b200{
     font-variation-settings: "wght" 400, "wdth" 50, "ital" 0;
     padding: 20px;
+    color: rgb(225, 205, 151)
+  }
+  .b{
+    color: rgb(225, 205, 151)
   }
 
   .b267{
     font-variation-settings: "wght" 400, "wdth" 75, "ital" 0;
     padding: 20px;
+    color: rgb(225, 205, 151)
   }
+  .b2{ 
+    color: rgb(225, 205, 151)
+    }
 
   .b400{
     font-variation-settings: "wght" 400, "wdth" 100, "ital" 0;
     padding: 20px;
+    color: rgb(225, 205, 151)
+  }
+  .b3{
+    color: rgb(225, 205, 151)
   }
 
   .b568{
-    font-variation-settings: "wght" 400, "wdth" 125, "ital" 0;
+    font-variation-settings: "wght" 400, "wdth" 140, "ital" 0;
     padding: 20px;
+    color: rgb(225, 205, 151)
+  }
+  .b4{
+    color: rgb(225, 205, 151)
   }
 
   .b759{
-    font-variation-settings: "wght" 400, "wdth" 140, "ital" 0;
+    font-variation-settings: "wght" 400, "wdth" 150, "ital" 0;
     padding: 20px;
+    color: rgb(225, 205, 151)
+  }
+  .b5{
+    color: rgb(225, 205, 151)
   }
 
   .b900{
     font-variation-settings: "wght" 400, "wdth" 175, "ital" 0;
     padding: 20px;
+    color: rgb(225, 205, 151)
   }
-  
   .bottomart{
     grid-area: o;
     background-image: url("images/bottomart.svg");
