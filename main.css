@@ -341,7 +341,22 @@ padding: 45px;
     /* background-color: rgb(188, 102, 102); */
     color: rgb(51, 71, 110);
 }
+.glyph4-animation{
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
 
+}
+@keyframes rotate{
+    0%, 100%{
+        transform: rotate(0deg);
+    } 
+    50%
+     {
+        transform:rotate(360deg);
+    }
+}
 /* footer page */
 
  
