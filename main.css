@@ -350,7 +350,7 @@ padding: 45px;
 }
 @keyframes rotate{
     0%, 100%{
-        transform: rotate(0deg);
+        transform-origin: rotate(0deg);
     } 
     50%
      {
