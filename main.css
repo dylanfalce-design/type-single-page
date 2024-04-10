@@ -154,9 +154,9 @@ h3{
 
 #history{
     grid-area: h;
+    padding: 10px;
     background-color: rgb(76, 76, 76);
     color: rgb(255, 255, 255)
-
 }
 
 #variations{
@@ -209,7 +209,7 @@ padding: 45px;
         "o o o o o o o o o o o o";
  }
  
- .pattertwo{
+ .patterntwo{
     background-image: url("images/page3pattern.svg");
     background-size: cover;
     grid-area: j;
@@ -319,12 +319,41 @@ padding: 45px;
     /* background-color:rgb(188, 102, 102); */
     color: rgb(51, 71, 110);
 }
-   
+.glyph1-animation{
+  animation-name:fadeinout;
+  animation-duration: 3s, 5s, 3s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+
+}
+@keyframes fadeinout{
+  0%, 100%{ opacity: 0;}
+  50% { opacity: 1}
+      
+}
 .glyph2{
     grid-area: b;
     font-size: 300px;
     /* background-color: rgb(188, 102, 102); */
     color: rgb(51, 71, 110); 
+}
+.glyph2-animation{
+  animation-name:colorchange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+
+}
+@keyframes colorchange{
+  0%, 100%{
+      transform-origin: rotate(0deg);
+      font-weight: 500px
+  } 
+  50%
+   {
+      transform:rotate(360deg);
+      font-weight: 900px
+  }
 }
 
 .glyph3{
@@ -333,6 +362,22 @@ padding: 45px;
     /* background-color: rgb(188, 102, 102); */
     color: rgb(51, 71, 110);
 
+}
+.glyph3-animation{
+  animation-name:rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+
+}
+@keyframes rotate{
+  0%, 100%{
+      transform-origin: rotate(0deg);
+  } 
+  50%
+   {
+      transform:rotate(360deg);
+  }
 }
 
 .glyph4{
