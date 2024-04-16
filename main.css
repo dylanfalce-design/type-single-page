@@ -425,10 +425,11 @@ padding: 45px;
   }
 
   .thesoul{
-    margin-top:0px;
+
+    padding: 15px;
     background-image: url("images/page5pattern.svg");
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     grid-area: s;
     height:200px;
     background-color: rgb(76, 76, 76);
