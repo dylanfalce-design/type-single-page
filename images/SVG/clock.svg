@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3024 4032">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-4 {
+        font-size: 590.32px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #996753;
+        font-family: Futura-Bold, Futura;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        stroke-width: 9px;
+      }
+
+      .cls-10, .cls-11 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        fill: #464646;
+      }
+
+      .cls-5 {
+        fill: #3ca092;
+        font-size: 200px;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        font-family: Futura-CondensedExtraBold, Futura;
+      }
+
+      .cls-6 {
+        fill: #512e20;
+        font-size: 90px;
+      }
+
+      .cls-7 {
+        font-size: 406px;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        stroke-width: 7px;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        fill: #1b4c46;
+        font-size: 1296px;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        fill: #7a432a;
+      }
+
+      .cls-18, .cls-19, .cls-20, .cls-12, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25 {
+        stroke-width: 0px;
+      }
+
+      .cls-19 {
+        fill: #297770;
+      }
+
+      .cls-20 {
+        fill: #8a001b;
+      }
+
+      .cls-21 {
+        fill: #c90011;
+      }
+
+      .cls-22 {
+        fill: #c9000b;
+      }
+
+      .cls-23 {
+        fill: #d4fbff;
+      }
+
+      .cls-24 {
+        fill: #fff;
+      }
+
+      .cls-25 {
+        fill: #f40014;
+      }
+    </style>
+  </defs>
+  <g id="Layer_5" data-name="Layer 5">
+    <rect class="cls-19" x=".22" y="-6.02" width="3032.76" height="3572.46"/>
+    <text class="cls-8" transform="translate(.22 1087.43)"><tspan x="0" y="0">Clo</tspan><tspan class="cls-1" x="1738.34" y="0">c</tspan><tspan x="2214.21" y="0">k</tspan></text>
+    <text class="cls-5" transform="translate(28.82 447.79)"><tspan x="0" y="0">Ala</tspan><tspan class="cls-17" x="290.04" y="0">r</tspan><tspan x="369.82" y="0">m</tspan></text>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <ellipse class="cls-22" cx="1525.6" cy="1118.48" rx="73.95" ry="31.01"/>
+    <path class="cls-21" d="m1077.92,1002.99s11-113.51,224.27-125.55c213.26-12.04,93.97-26.1,495.32,0,211.54,13.76,191.47,156.16,225.4,153.84,38.19-2.61-88.17,29.03-88.17,29.03,0,0,.36-91.71-140.67-104.51-133.78-12.14-232.18-33.4-490.16,4.44,0,0-118.67-7.12-146.06,75.19-29.65,89.1-79.93-32.44-79.93-32.44Z"/>
+    <path class="cls-20" d="m786.28,1612.67s1881.11,144.27,1720.73,613.6c-157.44,460.72-356.4,690.12-437.29,765.04-20.6,19.07-54.53,24.83-82.6,25.11l-1023.31,6.58c-312.28-219.25-401.98-475.24-421.7-517.21-194.3-413.5-103.89-746.49-103.89-746.49l348.06-146.64Z"/>
+    <ellipse class="cls-22" cx="2269.16" cy="1132.75" rx="77.11" ry="113.59" transform="translate(272.27 2696.28) rotate(-64.59)"/>
+    <ellipse class="cls-21" cx="2100.13" cy="1333.62" rx="204.37" ry="346.51" transform="translate(-196.49 2289.98) rotate(-55.02)"/>
+    <ellipse class="cls-21" cx="960.8" cy="1298.46" rx="344.68" ry="216.95" transform="translate(-476.18 560.74) rotate(-26.32)"/>
+    <path class="cls-22" d="m918.01,1024.1c18.89,38.17-11.39,91.67-67.61,119.49-56.23,27.82-117.12,19.43-136.01-18.74-18.89-38.17,13.39-88.67,69.61-116.49,56.23-27.82,115.12-22.43,134.01,15.74Z"/>
+    <ellipse class="cls-25" cx="1486.27" cy="1958.62" rx="1078.83" ry="853.72"/>
+    <ellipse class="cls-23" cx="1486.27" cy="1942.57" rx="922.16" ry="699.8"/>
+    <circle class="cls-21" cx="2306.74" cy="2846.63" r="204.27"/>
+    <circle class="cls-21" cx="625.48" cy="2850.63" r="204.27"/>
+    <path class="cls-25" d="m645.36,1433.93s77.95-522.1,613.23-307.4l12.25-2.16s-198.67-239.51-472.08-76.24c-273.41,163.27-193.17,410.6-179.51,412.62,13.65,2.03,26.11-26.82,26.11-26.82Z"/>
+    <path class="cls-25" d="m2393.09,1489.07c1.05,9.82-73.62-522.12-599.06-331.73l-8.17-9.62s218.95-227.22,486.47-53.92c267.51,173.29,157.64,422.53,143.92,424.08-13.72,1.56-23.16-28.81-23.16-28.81Z"/>
+    <path class="cls-24" d="m758.2,2361.89s-126.95-834.9,728.07-843.96c817.51-8.67,772.25,780.42,747.54,821.6-24.71,41.18-194.47,306.14-744.51,306.5-566.38.38-731.1-284.14-731.1-284.14Z"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <polygon class="cls-12" points="1979.56 2055.75 1625.19 2055.75 1613.19 1992.21 1979.56 1992.21 1979.56 2055.75"/>
+    <ellipse class="cls-12" cx="1488.07" cy="2055.75" rx="141.8" ry="134.92"/>
+    <polygon class="cls-12" points="880.68 2206.81 1445.73 2015.52 1445.5 1992.21 870.45 2183.49 880.68 2206.81"/>
+    <rect class="cls-12" x="1254.07" y="1563.56" width="38.26" height="483.91" transform="translate(-903.78 1429.11) rotate(-45)"/>
+    <ellipse class="cls-11" cx="1488.07" cy="2025.46" rx="95.59" ry="85.49"/>
+    <ellipse class="cls-10" cx="1488.07" cy="1992.21" rx="69.84" ry="52.35"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <polygon class="cls-18" points="0 3023.87 3024 3003.89 3024 4027.82 0 4029.26 0 3023.87"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <text class="cls-7" transform="translate(66.44 3415.93)"><tspan x="0" y="0">L</tspan><tspan class="cls-9" x="215.99" y="0">e</tspan><tspan x="468.93" y="0">vi</tspan></text>
+    <text class="cls-4" transform="translate(62 3935.63)"><tspan x="0" y="0">Hut</tspan><tspan class="cls-2" x="1106.83" y="0">c</tspan><tspan class="cls-16" x="1410.83" y="0">hins</tspan></text>
+    <text class="cls-6" transform="translate(2516.71 3995.21)"><tspan x="0" y="0">D</tspan><tspan class="cls-15" x="54.71" y="0">y</tspan><tspan x="101.82" y="0">lan </tspan><tspan class="cls-13" x="255.15" y="0">F</tspan><tspan x="294.57" y="0">alce</tspan></text>
+    <text class="cls-5" transform="translate(2511.01 1273.28)"><tspan class="cls-3" x="0" y="0">1</tspan><tspan x="106.54" y="0">7</tspan><tspan class="cls-14" x="226.86" y="0">8</tspan><tspan x="341.6" y="0">7</tspan></text>
+  </g>
+</svg>
